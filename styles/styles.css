@@ -1,8 +1,29 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 html,body{margin:0;padding:0;}
-html{background-color:grey;}
-body{display:block;font-family:'Lato',sans-serif;margin:0 auto;width:80%;}
+html{background-image:url('../img/wallpaper.jpg');background-size:cover;}
+body{background-color:rgba(0,0,0,0.5);display:block;font-family:'Lato',sans-serif;margin:0 auto;width:80%;}
 /* Navigation Bar */
+
+/* Font Stuff */
+@font-face {
+    font-family: 'Gunplay';
+    src: url('gunplay.eot');
+    src: url('gunplay.eot?#iefix') format('embedded-opentype'),
+         url('gunplay.woff2') format('woff2'),
+         url('gunplay.woff') format('woff'),
+         url('gunplay.ttf') format('truetype'),
+         url('gunplay.svg#gunplayregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Page Heading */
+.heading {
+  font-family: 'Gunplay';
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
 /* Homepage Movie Descriptions */
 #home-img-container {
   display: table;
